@@ -7,8 +7,9 @@ public class Main {
 		Vector3D one = new Vector3D(12, 2, 5);
 		Vector3D two = new Vector3D(5, 4, 2);
 		Vector3D three = new Vector3D();
-		three.scalarMultiplication(one, two);
-		System.out.println(three);
+
+		System.out.println(three.scalarMultiplication(one, two));
+		System.out.println(three.addVector3D(one, two));
 	}
 
 }

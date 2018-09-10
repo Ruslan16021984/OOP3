@@ -24,11 +24,12 @@ public class Vector3D {
 		return new Vector3D(z, y, z);
 	}
 
-	public Vector3D scalarMultiplication(Vector3D vectorOne, Vector3D vectorTwo) {
+	public double scalarMultiplication(Vector3D vectorOne, Vector3D vectorTwo) {
+		double scalar =0;
 		x = vectorOne.getX() * vectorTwo.getX();
 		y = vectorOne.getY() * vectorTwo.getY();
 		z = vectorOne.getZ() * vectorTwo.getZ();
-		return new Vector3D(z, y, z);
+		return scalar = x + y + z ;
 	}
 
 	public Vector3D multiplication(Vector3D vectorOne, Vector3D vectorTwo) {
